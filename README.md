@@ -2,8 +2,6 @@
 
 Code and data of our EMNLP 2022 paper "Varifocal Question Generation for Fact-checking" (Nedjma Ousidhoum, Zhangdie Yuan, Andreas Vlachos https://arxiv.org/pdf/2210.12400.pdf)
 
-Our question generation model is available on HuggingFace https://huggingface.co/nedjmaou/varifocal_qg_fact-checking/
-
 <pre>
 .
 +-- data
@@ -63,4 +61,4 @@ where `$PATH_TO_GENERATOR_MODEL$` and `$PATH_TO_RERANKER_MODEL$` refer to the pa
 set `$NUM_OF_TAGS$` to 0 to include all tags (no filtering). `$NE_ONLY$` refers to filtering generated questions based on whether the focal point is a named entity (`yes`, `no`, or `all`). 
 
 ## Models
-Our models will be uploaded to Huggingface soon.
+Our question generation model is available on HuggingFace (see https://huggingface.co/nedjmaou/varifocal_qg_fact-checking/)
