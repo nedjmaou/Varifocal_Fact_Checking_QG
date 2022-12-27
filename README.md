@@ -2,6 +2,8 @@
 
 Code and data of our EMNLP 2022 paper "Varifocal Question Generation for Fact-checking" (Nedjma Ousidhoum, Zhangdie Yuan, Andreas Vlachos https://arxiv.org/pdf/2210.12400.pdf)
 
+Our question generation model is available on HuggingFace https://huggingface.co/nedjmaou/varifocal_qg_fact-checking/
+
 <pre>
 .
 +-- data
